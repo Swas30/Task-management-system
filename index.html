@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Management System</title>
+     <script src="script.js"></script>
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Task Management System</h1>
+    <h2>Let's get your day sorted</h2>
+    <input type="text" placeholder="Enter your task" id="taskInput">
+    <button onclick="addTask()">Add Task</button>
+    <div>
+        <button onclick="setFilter('all')">All</button>
+        <button onclick="setFilter('completed')">Complete</button>
+        <button onclick="setFilter('pending')">Pending</button>
+    </div>
+    <div>
+        <ul id="taskList"></ul>
+    </div>
+</body>
+</html>
+

@@ -1,0 +1,72 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 2.5em;
+    color: #2c3e50;
+    margin-bottom: 10px;
+  }
+  
+  h2 {
+    font-size: 1.2em;
+    color: #7f8c8d;
+    margin-bottom: 30px;
+  }
+  
+  #taskInput {
+    width: 60%;
+    max-width: 400px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    outline: none;
+    margin-right: 10px;
+  }
+  
+  button {
+    padding: 10px 15px;
+    font-size: 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #3498db;
+    color: white;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  
+  div > button {
+    margin: 10px 5px;
+    background-color: #519398;
+  }
+  
+  div > button:hover {
+    background-color: #7f8c8d;
+  }
+  
+  ul#taskList {
+    font-size: larger;
+    list-style: none;
+    margin-top: 30px;
+    padding: 0;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
